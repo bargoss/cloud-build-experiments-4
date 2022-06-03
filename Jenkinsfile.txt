@@ -1,4 +1,10 @@
 pipeline{
+    stages{
+        stage{
+            
+            
+        }
+    }
 
 }
 
