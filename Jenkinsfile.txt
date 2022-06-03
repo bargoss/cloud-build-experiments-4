@@ -5,6 +5,10 @@ pipeline {
         stage('Build') {
             steps {
                 echo "build step started"
+                
+                // run the unity command from UNITY_PATH
+                sh "\"$UNITY_PATH\" -batchmode -quit -executeMethod ByteTyper.Build.Windows"
+                
             }
 
             post {

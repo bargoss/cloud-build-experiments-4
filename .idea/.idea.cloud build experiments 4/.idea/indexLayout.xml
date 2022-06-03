@@ -3,6 +3,7 @@
   <component name="UserContentModel">
     <attachedFolders />
     <explicitIncludes>
+      <Path>Assets</Path>
       <Path>Jenkinsfile.txt</Path>
     </explicitIncludes>
     <explicitExcludes />
