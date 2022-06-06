@@ -2,6 +2,11 @@ pipeline {
     agent any
 
     stages {
+        stage('Setup'){
+            steps {
+                sh 'set '
+            }
+        }
         stage('Build') {
             steps {
                 echo "build step started"
